@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "proj-fundamentalista"
+version = "0.1.0"
+description = "Buscar na internet a classificação de todas as ações da bolsa"
+authors = ["Patrick Verol"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+pandas = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
