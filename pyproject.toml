@@ -16,6 +16,8 @@ ipykernel = "^6.29.0"
 blue = "^0.9.1"
 isort = "^5.13.2"
 taskipy = "^1.12.2"
+mkdocs = "^1.5.3"
+pre-commit = "^3.6.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -23,3 +25,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
 format = "isort . && blue ."
+kill = "kill -9 $(lsof -t -i :8000)"
+test = "poetry run pytest -v"
+run = "python3 app/main.py"
