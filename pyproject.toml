@@ -8,8 +8,18 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.11.5"
 pandas = "^2.2.0"
+pytest = "^8.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+blue = "^0.9.1"
+isort = "^5.13.2"
+taskipy = "^1.12.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+format = "isort . && blue ."
