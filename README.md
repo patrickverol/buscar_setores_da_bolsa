@@ -1,5 +1,5 @@
 <div align="center">
-  <img  src="https://i.imgur.com/7WZ2o8a.png"
+  <img  src="![Web Scrapping](https://github.com/patrickverol/buscar_setores_da_bolsa/assets/102604896/ec9546cb-5b5f-4457-8335-3fc69282aa86)"
     width=100%" >
 </div>
 <br>
@@ -52,6 +52,13 @@ Este projeto tem o objetivo de buscar a classificação de todas as ações da b
 ```bash
   task run
 ```
-## Autores
+  6. Verifique na pasta app se o arquivo foi gerado corretamente.
 
-- [@patrickverol](https://github.com/patrickverol)
+## Contato
+
+Para dúvidas, sugestões ou feedbacks:
+
+<div>
+    <a href="https://www.linkedin.com/in/patrickverol/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+    <a href = "mailto:patrickverol@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div> 
