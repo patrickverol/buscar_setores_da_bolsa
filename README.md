@@ -1,7 +1,5 @@
-<div align="center">
 ![Web Scrapping](https://github.com/patrickverol/buscar_setores_da_bolsa/assets/102604896/199dca1a-9638-43fb-bcc9-a0d518d455ee)
-    width=100%" >
-</div>
+
 <br>
   <h1 align="center">
     Buscar classificação de ações da Bolsa
