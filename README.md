@@ -1,5 +1,5 @@
 <div align="center">
-  <img  src="![Web Scrapping](https://github.com/patrickverol/buscar_setores_da_bolsa/assets/102604896/ec9546cb-5b5f-4457-8335-3fc69282aa86)"
+![Web Scrapping](https://github.com/patrickverol/buscar_setores_da_bolsa/assets/102604896/199dca1a-9638-43fb-bcc9-a0d518d455ee)
     width=100%" >
 </div>
 <br>
@@ -59,6 +59,7 @@ Este projeto tem o objetivo de buscar a classificação de todas as ações da b
 Para dúvidas, sugestões ou feedbacks:
 
 <div>
-    <a href="https://www.linkedin.com/in/patrickverol/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+    <a href="https://www.linkedin.com/in/patrick-verol/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
     <a href = "mailto:patrickverol@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div> 
+
