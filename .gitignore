@@ -2,6 +2,12 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
 .vscode
+.pre-commit-config.yaml
+.git
+app/main.py
+tests
+docs
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/

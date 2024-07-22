@@ -84,22 +84,20 @@ def baixar_planilha():
     ).click()
     time.sleep(3)
 
+def ler_planilha():
+    # Lendo o arquivo baixado
+    downloads_path = os.path.expanduser("~/Downloads")
 
-baixar_planilha()
-
-# Lendo o arquivo baixado
-downloads_path = os.path.expanduser("~/Downloads")
-
-# Verifique se o diretório existe
-if os.path.exists(downloads_path):
-    # Navegue até a pasta de Downloads
-    os.chdir(downloads_path)
-    # Faça alguma coisa dentro da pasta de Downloads (exemplo: listar arquivos)
-    df = pd.read_csv("statusinvest-busca-avancada.csv", sep=";")
+    # Verifique se o diretório existe
+    if os.path.exists(downloads_path):
+        # Navegue até a pasta de Downloads
+        os.chdir(downloads_path)
+        # Faça alguma coisa dentro da pasta de Downloads (exemplo: listar arquivos)
+        df = pd.read_csv("statusinvest-busca-avancada.csv", sep=";")
 
 
-else:
-    print("O diretório de Downloads não existe neste sistema.")
+    else:
+        print("O diretório de Downloads não existe neste sistema.")
 
 # Criando a nova planilha
 new_df = pd.DataFrame()
